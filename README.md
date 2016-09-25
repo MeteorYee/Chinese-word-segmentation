@@ -3,8 +3,8 @@ For short-text words from Weibo (Weibo is analogous to Twitter)
 
 Special Annoucement:
 
-I have to attribute to an example the implementation of this whole system 
-on CSDN, and the example is implemented by python and based on Perceptron.
+I have to attribute to an example on CSDN the implementation of this 
+whole system, and the example is implemented by python and based on Perceptron.
 I take some reference to that system's architecture. Here are the link:
 
 http://download.csdn.net/detail/SummerRain2008/468453
@@ -56,8 +56,9 @@ note:
 note: avgmodel, exdict_model and posmodel are all the names of my trained
 models, you can use yours.
 
-PRF_Score.py
+PRF_Score.py:
 
 python PRF_Score.py testFile goldFile
 eg. python PRF_Score.py yourResultFile raw/gold_result.txt (for seg)
+
     python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
