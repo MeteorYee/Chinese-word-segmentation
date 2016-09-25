@@ -61,4 +61,4 @@ PRF_Score.py:
 python PRF_Score.py testFile goldFile
 eg. python PRF_Score.py yourResultFile raw/gold_result.txt (for seg)
 
-    python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
+python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
