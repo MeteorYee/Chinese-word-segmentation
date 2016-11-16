@@ -4,8 +4,8 @@ For short-text words from Weibo (Weibo is analogous to Twitter)
 Special Annoucement:
 
 I have to attribute to an example on CSDN the implementation of this 
-whole system, and the example is implemented by python and based on Perceptron.
-I took some reference to that system's architecture and got a lot of help.
+whole system.I took some reference to that system's architecture and
+got a lot of help.
 Here are the link:
 
 http://download.csdn.net/detail/SummerRain2008/468453
