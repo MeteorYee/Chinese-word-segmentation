@@ -2,7 +2,12 @@
 For short-text words from Weibo (Weibo is analogous to Twitter)
 
 ## Evaluation
+### PRF for fundamental system
 ![](https://github.com/MeteorYee/Chinese-word-segmentation/blob/master/images/f1.jpg)
+### PRF for extra dict
+![](https://github.com/MeteorYee/Chinese-word-segmentation/blob/master/images/f2.jpg)
+### PRF for POS tagging
+![](https://github.com/MeteorYee/Chinese-word-segmentation/blob/master/images/f3.jpg)
 
 ## Special Annoucement:
 
