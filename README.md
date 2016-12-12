@@ -47,10 +47,10 @@ eg. python Pcpt_Train.py seg test.txt avgmodel test_result.txt
 
 ### POS tagging：
 
-ONLY for Pcpt_posTrain.py
+_**ONLY**_ for Pcpt_posTrain.py
 eg. python Pcpt_posTrain.py pos_seg test.txt posmodel pos_result
 
-`note`:
+_**NOTE**_:
 avgmodel, exdict_model and posmodel are all the names of my trained
 models, you may use yours.
 
