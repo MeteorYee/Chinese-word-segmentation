@@ -50,9 +50,9 @@ eg. python Pcpt_Train.py seg test.txt avgmodel test_result.txt
 ONLY for Pcpt_posTrain.py
 eg. python Pcpt_posTrain.py pos_seg test.txt posmodel pos_result
 
-note:
-note: avgmodel, exdict_model and posmodel are all the names of my trained
-models, you can use yours.
+`note`:
+avgmodel, exdict_model and posmodel are all the names of my trained
+models, you may use yours.
 
 ## PRF_Score.py:
 
