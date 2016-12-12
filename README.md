@@ -1,6 +1,9 @@
 # Chinese-word-segmentation
 For short-text words from Weibo (Weibo is analogous to Twitter)
 
+## Evaluation
+![](https://github.com/MeteorYee/Chinese-word-segmentation/blob/master/images/f1.jpg)
+
 ## Special Annoucement:
 
 I have to attribute to an example on CSDN the implementation of this 
