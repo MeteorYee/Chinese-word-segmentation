@@ -49,14 +49,14 @@ use terminal
 
 ### Segmentation:
 
-* python XXX.py seg infile model_name result_file<br>
+* python XXX.py seg infile model_name result_file
 **eg**. python Pcpt_Train.py seg test.txt avgmodel test_result.txt<br>
     python Pcpt_exdictTrain.py seg test.txt exdict_model ex_result
 
 ### POS tagging：
 
-_**ONLY**_ for Pcpt_posTrain.py<br>
-**eg**. python Pcpt_posTrain.py pos_seg test.txt posmodel pos_result
+* _**ONLY**_ for Pcpt_posTrain.py<br>
+* **eg**. python Pcpt_posTrain.py pos_seg test.txt posmodel pos_result
 
 _**NOTE**_:
 avgmodel, exdict_model and posmodel are all the names of my trained
