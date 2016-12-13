@@ -44,19 +44,22 @@ use terminal
 
 ### Training:
 
-* python XXX.py train infile model_name<br>
+* python XXX.py train infile model_name
+
 **eg**. python Pcpt_Train.py train my_train_seg.txt test_model
 
 ### Segmentation:
 
 * python XXX.py seg infile model_name result_file
+
 **eg**. python Pcpt_Train.py seg test.txt avgmodel test_result.txt<br>
     python Pcpt_exdictTrain.py seg test.txt exdict_model ex_result
 
 ### POS tagging：
 
-* _**ONLY**_ for Pcpt_posTrain.py<br>
-* **eg**. python Pcpt_posTrain.py pos_seg test.txt posmodel pos_result
+* _**ONLY**_ for Pcpt_posTrain.py
+
+**eg**. python Pcpt_posTrain.py pos_seg test.txt posmodel pos_result
 
 _**NOTE**_:
 avgmodel, exdict_model and posmodel are all the names of my trained
@@ -64,7 +67,8 @@ models, you may use yours.
 
 ## PRF_Score.py:
 
-* python PRF_Score.py testFile goldFile<br>
+* python PRF_Score.py testFile goldFile
+
 eg. python PRF_Score.py yourResultFile raw/gold_result.txt (for seg)<br>
     python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
 
