@@ -20,36 +20,36 @@ http://download.csdn.net/detail/SummerRain2008/468453
 
 ## File Introduction
 ### PRF_Score.py:
-calculate the PRF value<br>
+> calculate the PRF value<br>
 
 ### Pcpt_Train.py:
-the fundamental segmentation
+> the fundamental segmentation
 
 ### Pcpt_exdictTrain.py:
-add extra dictionary<br>
-the EXTRA DICTIONARY is stored in raw/extra_dict
+> add extra dictionary<br>
+> the EXTRA DICTIONARY is stored in raw/extra_dict
 
 ### Pcpt_posTrain.py:
-add POS tagging
+> add POS tagging
 
 ### my_train_seg.txt:
-a little example of training data
+> a little example of training data
 
 ### my_train_segpos.txt:
-a little example of training data for POS tagging
+> a little example of training data for POS tagging
 
 ## Usage：
-get into the right path in which these files are stored
+> get into the right path in which these files are stored
 use terminal
 
 ### Training:
 
-python XXX.py train infile model_name<br>
+* python XXX.py train infile model_name<br>
 eg. python Pcpt_Train.py train my_train_seg.txt test_model
 
 ### Segmentation:
 
-python XXX.py seg infile model_name result_file<br>
+* python XXX.py seg infile model_name result_file<br>
 eg. python Pcpt_Train.py seg test.txt avgmodel test_result.txt<br>
     python Pcpt_exdictTrain.py seg test.txt exdict_model ex_result
 
@@ -64,6 +64,10 @@ models, you may use yours.
 
 ## PRF_Score.py:
 
-python PRF_Score.py testFile goldFile<br>
+* python PRF_Score.py testFile goldFile<br>
 eg. python PRF_Score.py yourResultFile raw/gold_result.txt (for seg)<br>
-python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
+> python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
+
+## Contact me:
+* meteor_yee@163.com
+* meteoryee0924@gmail.com
