@@ -66,7 +66,7 @@ models, you may use yours.
 
 * python PRF_Score.py testFile goldFile<br>
 eg. python PRF_Score.py yourResultFile raw/gold_result.txt (for seg)<br>
-> python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
+    python PRF_Score.py yourResultFile raw/gold_pos_result.txt (for seg and pos)
 
 ## Contact me:
 * meteor_yee@163.com
